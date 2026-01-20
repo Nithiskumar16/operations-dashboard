@@ -8,7 +8,7 @@ st.title("📊 Operations Revenue Dashboard")
 # -----------------------------
 # MANUAL MONTHLY TARGET
 # -----------------------------
-TOTAL_TARGET = 80_000_000  # 8 Cr
+TOTAL_TARGET = 60_000_000  # 8 Cr
 
 # -----------------------------
 # LOAD DATA
