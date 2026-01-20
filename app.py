@@ -103,7 +103,7 @@ non_freight = filtered[
 
 
 unbilled = filtered[
-    (filtered["BILL TYPE"].str.lower()=="UNBILLED") &
+    (filtered["BILL TYPE"].str.lower()=="Unbilled") &
     (filtered["Bill Amount"].fillna(0)==0)
 ]["Consignment Freight Amount"].sum()
 
